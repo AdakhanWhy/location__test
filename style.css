@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+
+    position: relative;
+}
+
+main {
+    width: 500px;
+    height: 500px;
+
+    margin: 30px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+}
+
+.block {
+    width: 50%;
+    height: 50%;
+
+    border: 1px solid black;
+
+    background-color: gray;
+
+    text-align: center;
+    line-height: 250px;
+
+    font-weight: 700;
+    font-size: 20px;
+}
+
+div {
+    width: 500px;
+    height: 50px;
+
+    margin: 0 auto;
+
+    background: gray;
+}
+
+input {
+    width: 245px;
+    height: inherit;
+}
+
+p {
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background-color: yellow;
+
+    position: absolute;
+
+    margin-top: 235px;
+    margin-left: 235px;
+
+    opacity: 0.9;
+    transition: all 2s ease-in-out;
+}
